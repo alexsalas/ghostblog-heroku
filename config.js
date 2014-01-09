@@ -13,8 +13,8 @@ config = {
             options: {
                 service: 'Sendgrid',
                 auth: {
-                    user: process.env.SENDMAIL_USERNAME,
-                    pass: process.env.SENDMAIL_PASSWORD
+                    user: process.env.SENDGRID_PASSWORD,
+                    pass: process.env.SENDGRID_USERNAME
                 }
             }
         },
